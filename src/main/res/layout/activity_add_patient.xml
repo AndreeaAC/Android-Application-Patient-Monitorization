@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="Introduceți datele noului pacient:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/cnp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CNP" />
+    <EditText
+        android:id="@+id/nume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nume" />
+    <EditText
+        android:id="@+id/prenume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prenume" />
+    <EditText
+        android:id="@+id/varsta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vârstă" />
+    <EditText
+        android:id="@+id/adresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresă" />
+    <EditText
+        android:id="@+id/telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nr. Telefon" />
+    <Spinner
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Adăugare pacient"
+        android:id="@+id/adaugare"/>
+
+</LinearLayout>

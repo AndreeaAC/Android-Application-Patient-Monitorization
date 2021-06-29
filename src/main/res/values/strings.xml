@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PatientMonitorization</string>
+    <string-array name="sex">
+        <item>Sex</item>
+        <item>Masculin</item>
+        <item>Feminin</item>
+    </string-array>
+</resources>

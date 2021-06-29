@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "140515177939",
+    "firebase_url": "https://licenta-508e9.firebaseio.com",
+    "project_id": "licenta-508e9",
+    "storage_bucket": "licenta-508e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140515177939:android:9618a0d412eeef47",
+        "android_client_info": {
+          "package_name": "com.example.patientmonitorization"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140515177939-55e0s6n1e8kpm9bc17h6jcbkg9mb1nrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patientmonitorization",
+            "certificate_hash": "7a069294a0a90533c68df1d4302b5601e64a6acf"
+          }
+        },
+        {
+          "client_id": "140515177939-ir03d6l0ih11ftiuq4j3hlpov6vr98hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv4Y_ngj9OH9sWGgmxzp7cAd3knjPJaCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140515177939-ir03d6l0ih11ftiuq4j3hlpov6vr98hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
